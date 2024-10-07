@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 330px;
+  height: 220px;
+  border-radius: 10px;
+  max-width: 90%;
+  height: auto;
+  opacity: 0.9;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
