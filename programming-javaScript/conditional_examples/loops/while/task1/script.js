@@ -1,6 +1,7 @@
-var count = 0;
+var number = 5;
 
-while (count < 5) {
-  console.log(`console.log(${count})`);
-  count++;
+while (number > 0) {
+	console.log(`console.log(${number})`);
+	number--;
 }
+console.log(`console.log('Countdown finished!')`);
