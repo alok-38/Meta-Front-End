@@ -1,13 +1,17 @@
+//creating an object with properties and their values
 var assistantManager = {
-  movement: 3,
+  rangeTilesPerTurn: 3,
   socialSkills: 30,
   streetSmarts: 30,
   health: 40,
+  specialAbility: "young and ambitious",
+  greeting: "Let's make some money",
 };
 
-var worker = {
-  loyalty: 5,
-  wageFairness: true,
-  streetSmarts: false,
-  punctuality: 50,
+var table = {
+  legs: 3,
+  color: "brown",
+  priceUSD: 100,
 };
+
+console.table(table);
